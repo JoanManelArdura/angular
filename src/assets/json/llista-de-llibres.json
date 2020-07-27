@@ -1,0 +1,5 @@
+[
+    { "id":1, "titulo":"El senyor dels anells", "autor":"JRR Tolkien", "sinopsis": "un enano se larga de casa del bully de su tio con una joya familiar, y lo persiguen unos tios de negro. Remake de la ley de la calle" },
+    { "id":2, "titulo":"harry el sucio", "autor":"marible redista", "sinopsis": "dos abuelas se escapan de un campo de prisioneros difrazandose de fornidos obreros del metal"},
+    { "id":3, "titulo":"another book in the wall", "autor":"la abuela de la fabada", "sinopsis": "un oso blanco desea aprender inglés"}
+  ]

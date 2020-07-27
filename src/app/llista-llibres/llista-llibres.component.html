@@ -1,0 +1,10 @@
+<div class="container">
+    <ul>
+        <li *ngFor="let llibre of llibres" (click):llibresSeleccionats.afegirLlibre(llibre)>
+            <a [routerLink]="['/detalles', llibre.id]" > {{llibre.titulo}} </a>
+        </li>
+
+    </ul>
+
+
+</div>

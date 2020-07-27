@@ -1,0 +1,22 @@
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a [routerLink]="['/']" >Inici</a></li>
+                <li><a [routerLink]="['/llista-llibres']" routerLinkActive="active">Llista de Llibres</a></li>
+                <li><a [routerLink]="['/sobre']" routerLinkActive="active">Sobre Nosaltres</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <button (click)="mostrarLlista = !mostrarLlista"></button>
+        <div class="elsMeusLlibres" *ngIf="mostrarLlista">
+            <h2>Els meus Llibres</h2>
+            <ul *ngIf="llibresSeleccionats.mostrarLlibres()">
+                <li *ngFor="let llibre of llibresSeleccionats.mostrarLlibres()">{{llibre.titulo}}</li>
+            </ul>
+        </div>
+
+        <h1>Club de Lectura</h1>
+    </div>
+</div>
